@@ -1,0 +1,2 @@
+Hello from the sample file!
+Try reading this text with TypeScript and Node.js.
