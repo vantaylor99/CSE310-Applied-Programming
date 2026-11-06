@@ -3,6 +3,11 @@
     "target": "ES2022",
     "module": "CommonJS",
     "strict": true,
-    "types": ["node"]
+    "types": [
+      "node"
+    ],
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true
   }
 }

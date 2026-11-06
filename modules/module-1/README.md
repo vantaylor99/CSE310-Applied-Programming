@@ -1,18 +1,20 @@
-# Module 1: TypeScript
+# Overview
 
-- `practice/`: learning exercises, including the existing file-reading example.
-- `fixtures/`: sample files and folders for exercises.
-- `src/`: the module project, to be built as you learn.
+I wanted to further my understanding of typescript so I put together this application to learn more about it and practice my programming skills. This project at its core is a directory scanner that can read a directories path, gather some information about it and its contents, then dispaly those results as a tree in the console. 
 
-Run commands from the repository root. Relative paths passed to Node's file
-functions start from the working directory, not the script's folder.
+[Software Demo Video](http://youtube.link.goes.here)
 
-The existing `practice/reading-files.ts` reads the repository's `README.md`.
-To practice with the sample text file, change its file path to
-`modules/module-1/fixtures/example.txt`.
+# Development Environment
 
-Check TypeScript without generating JavaScript:
+TypeScript, Node.js and VS Code. 
 
-```powershell
-npx tsc --noEmit
-```
+# Useful Websites
+
+- [Node JS Documentation](https://nodejs.org/api/fs.html#fspromisesreaddirpath-options)
+- [Type Script Video Tutorial](https://www.youtube.com/watch?v=d56mG7DezGs)
+
+# Future Work
+
+- Add the ability to format the tree independent of the console so it can be displayed on web pages, in apps, or still in the console.
+- In [read-files.ts](src/read-files.ts) in the `EntryDirectory` object I left an option in the future to include an array of the file types inside each directory. 
+- Generate links to each files local path on the fly.
