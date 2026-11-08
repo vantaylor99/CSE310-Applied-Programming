@@ -1,8 +1,8 @@
 // Build your module project here as you learn.
 import { DirectoryScanner } from "./read-files";
 
-const emptyFolderScan = new DirectoryScanner("modules/module-1/Parent Folder/Child Folder 1/Empty Folder");
 const testFolderScan = new DirectoryScanner("modules/module-1/Parent Folder");
+const emptyFolderScan = new DirectoryScanner("modules/module-1/Parent Folder/Child Folder 1/Empty Folder");
 const fakeFolderScan = new DirectoryScanner("C:/repos/school/fakeFolder");
 
 emptyFolderScan.displayResults().catch(console.error)
